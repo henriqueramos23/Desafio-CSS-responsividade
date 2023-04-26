@@ -1,0 +1,160 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    margin: 47px 0 0 42px;
+} 
+.link-header-1{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 36px;
+    cursor: pointer;
+} 
+.link-header{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.875px;
+    color: #17233D;
+    margin-right: 32px;
+    cursor: pointer;
+}
+.button-header{
+    width: 124px;
+    height: 51px;
+    margin-right: 32px;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    border-radius: 6px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.logo-main{
+    width: 595.18px;
+    height: 500px;
+    margin-left: 121px;
+    margin-top: 163px;
+    display: inline-block;
+}
+section{
+    display: inline-block;
+    margin-left: 85px;
+}
+    h1{
+    margin-top: 342px;
+    width: 582px;
+    height: 164px;  
+    font-weight: 700;
+    font-size: 62px;
+    line-height: 82px;  
+    letter-spacing: 0.596154px;
+    color: #161A49;
+}
+p{
+    margin-top: 47px;
+    margin-bottom: 55px;
+    width: 493px;
+    height: 99px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    color: #4B505A;
+}
+.button-main{
+    height: 27px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 1px;
+    color: #6FBF44; 
+    border: none;  
+    cursor: pointer;
+}
+@media screen and (max-width: 900px) {
+    header{
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100vw;
+    }
+    .link-header-1{
+        display:none
+}
+    .link-header{
+        display:none
+}
+.button-header{
+    display: block;
+    width: 91px;
+    height: 31px;
+    border-radius: 6px;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    margin: 17px 15px auto auto;
+    }
+main{
+    margin: 0;
+    padding: 0;
+    display: block;
+    width: 100vw;
+    height: auto;
+}
+.logo-main{
+    display: block;
+    width: 80%;
+    height: 40%;
+    position: fixed;
+    bottom: 22px;
+    right: 52px;
+}
+section{
+    display:block;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+h1{
+    width: 278px;
+    height: 60px;
+    font-size: 30px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.596154px;
+    margin: 124px auto 0 auto;
+}
+p{
+    width: 304px;
+    height: 165px;
+    font-size: 18px;
+    line-height: 33px;
+    text-align: center;
+    letter-spacing: 0.5px;
+    margin: 29px auto 26px auto;
+}
+.button-main{
+display: block;    
+width: 113px;
+height: 27px;
+font-size: 18px;
+line-height: 27px;
+letter-spacing: 1px;
+margin: 0 auto;
+}
+
+}
+
